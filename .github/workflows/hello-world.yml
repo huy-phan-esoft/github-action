@@ -9,7 +9,7 @@ jobs:
     
     steps: 
       - name: check out repository code
-        uses: action/checkout@v4.2.2
+        uses: action/checkout@v4
       - run: echo "$(cat hello_world.txt)"
         
       
